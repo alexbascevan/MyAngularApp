@@ -1,0 +1,31 @@
+<br>
+<hr>
+<br>
+
+<h2 [ngStyle]="{
+    'color': '#7c34db',
+    'text-align': 'center'
+  }">Country Name:  <span [ngStyle]="{'color': '#f50000'}">{{CTRYBascevan.bascevanCountry | uppercase}}</span></h2>
+
+<br>
+<hr>
+<br>
+
+<h2 [ngStyle]="{
+  'background-color': '#7c34db',
+  'color': 'white',
+  'text-align': 'center'
+}">Country Capital: {{CTRYBascevan.bascevanCapital}}</h2>
+
+<br>
+<hr>
+<br>
+
+<h2 [ngStyle]="{
+  'text-align': 'center',
+  'color': '#7c34db'
+}">Average Salary: ${{CTRYBascevan.bascevanAvgSalary | number: '1.2-2'}}</h2>
+
+<br>
+<hr>
+

@@ -1,0 +1,41 @@
+/* class: bascevanPersonalCSS */
+.bascevanPersonalCSS {
+  border: 8px solid #7c34db; 
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 100%; 
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* class: bascevanCountryCSS */
+.bascevanCountryCSS {
+  border: 8px solid #f50000; 
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 100%; 
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+figure {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure img {
+  width: 85%;
+  height: 75%;
+  object-fit: cover;
+}
+
+hr {
+  border: 2px solid grey;
+  margin: 20px 0;
+}

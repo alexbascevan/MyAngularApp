@@ -1,0 +1,15 @@
+<br>
+<hr>
+<br>
+
+<section [ngStyle]="{'display': 'flex'}">
+    <figure>
+      <img src="{{ PERBascevan.bascevanImg }}" [ngClass]="{'bascevanPersonalCSS': true}">
+      <figcaption [ngStyle]="{'text-align': 'center', 'color': '#7c34db'}">{{ PERBascevan.bascevanName }}</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="{{ CTRYBascevan.bascevanFlagImg }}" [ngClass]="{'bascevanCountryCSS': true}">
+      <figcaption [ngStyle]="{'text-align': 'center', 'color': '#f50000'}">{{ CTRYBascevan.bascevanCountry }}</figcaption>
+    </figure>
+</section>
