@@ -1,27 +1,42 @@
-# MyAngularApp
+# My Angular Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+## Overview
+This is a basic web application built using Angular and Angular Material. The application is designed to be mobile-responsive, providing a seamless user experience across various devices.
 
-## Development server
+## Features
+- User-friendly interface with Angular Material components.
+- Mobile compatibility for use on smartphones and tablets.
+- Ability to display images and information dynamically using Angular features.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+To get started with the application, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/alexbascevan/MyAngularApp.git
+   cd my-angular-app
+   ```
 
-## Build
+2. **Install dependencies:**
+   Make sure you have Node.js and npm installed, then run:
+   ```bash
+   npm install
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Run the application:**
+   Start the development server:
+   ```bash
+   ng serve
+   ```
+   Open your browser and navigate to `http://localhost:4200/`.
 
-## Running unit tests
+## Usage
+The application allows users to interact with various components. Users can navigate through different sections and view dynamic content, including images and other media.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
+- Angular
+- Angular Material
+- TypeScript
+- HTML/CSS
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
